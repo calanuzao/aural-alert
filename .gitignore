@@ -1,0 +1,37 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Audio data folders
+audio/
+UrbanSound8K/
+*.wav
+*.mp3
+
+# Large compressed files
+*.tar.gz
+*.zip
+*.rar
+
+# Dataset duplicates
+FREESOUNDCREDITS.txt
+UrbanSound8K_README.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Keep specific files
+!metadata/UrbanSound8K.csv
+!README.md
+!utils.py
+!main.ipynb
