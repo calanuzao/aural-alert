@@ -41,3 +41,7 @@ Thumbs.db
 !README.md
 !utils.py
 !main.ipynb
+
+# databases
+hrtf_database.npy
+brir_database.npy
