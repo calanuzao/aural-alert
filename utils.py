@@ -56,7 +56,9 @@ class SpatialProcessor:
 
     def process_hrtf(self, audio: np.ndarray, hrtf: np.ndarray,
                     azimuth: float, elevation: float) -> np.ndarray:
-        """Apply HRTF processing to audio signal."""
+        """
+        Apply HRTF processing to audio signal.
+        """
         h_left, h_right = self._get_hrtf_filters(hrtf, azimuth, elevation)
         out_left = signal.fftconvolve(audio, h_left, mode='same')
         out_right = signal.fftconvolve(audio, h_right, mode='same')
