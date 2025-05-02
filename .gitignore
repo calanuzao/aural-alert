@@ -10,6 +10,8 @@ UrbanSound8K/
 *.mp3
 experiment_sirens/
 extracted_sirens/
+data/
+audio/
 
 # Large compressed files
 *.tar.gz
@@ -22,6 +24,7 @@ UrbanSound8K_README.txt
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+.virtual_documents/
 
 # OS generated files
 .DS_Store
@@ -31,6 +34,7 @@ UrbanSound8K_README.txt
 .Trashes
 ehthumbs.db
 Thumbs.db
+.jupyter_ystore.db
 
 # Keep specific files
 !metadata/UrbanSound8K.csv
