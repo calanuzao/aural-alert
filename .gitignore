@@ -8,6 +8,8 @@ audio/
 UrbanSound8K/
 *.wav
 *.mp3
+experiment_sirens/
+extracted_sirens/
 
 # Large compressed files
 *.tar.gz
