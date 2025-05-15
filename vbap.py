@@ -18,7 +18,7 @@ speakers = {
     "Lr": (-150, 0),
     "Rr": (150, 0),
     "Lt": (-90, 45),
-    "Rt": (90, 45)
+    "Rt": (90, 60)
 }
 
 def spherical_to_cartesian(az_deg, el_deg):
