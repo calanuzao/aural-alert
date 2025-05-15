@@ -45,3 +45,7 @@ Thumbs.db
 # databases
 hrtf_database.npy
 brir_database.npy
+
+# MATLAB project files
+*.prj
+resources/project/
